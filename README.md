@@ -96,3 +96,16 @@ Open another command prompt.
 ### 14. minikube service lambdafunctionapp-app-service
 ### 15. Open browser  => http://127.0.0.1:65363/api/MyHttpTrigger?name=Prince
 
+
+## Some useful commands
+
+
+netstat -ano | findStr "7071" => Find the app using port 7071 <br>
+taskkill /F /PID 1234 => Kill an app with process Id 1234 <br>
+
+docker images => list images <br>
+docker rmi webapiapp:latest => delete image webapiapp:latest <br>
+
+
+
+
