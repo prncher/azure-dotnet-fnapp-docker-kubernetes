@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: lambdafunctionapp-app-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: lambdafunctionapp-app
+  template:
+    metadata:
+      labels:
+        app: lambdafunctionapp-app
+    spec:
+      containers:
+      - name: lambdafunctionapp-container
+        image: lambdafnimage:v1.0.0
+        imagePullPolicy: Never # Crucial for local images
+        ports:
+        - containerPort: 80 # Replace with your application's port
