@@ -52,6 +52,4 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
-/.vs/LambdaFunctionApp/v17/.suo
-/.vs/LambdaFunctionApp/v17/DocumentLayout.json
-/LambdaFunctionApp.sln
+/.vs/
