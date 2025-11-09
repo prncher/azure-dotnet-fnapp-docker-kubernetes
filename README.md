@@ -106,6 +106,12 @@ taskkill /F /PID 1234 => Kill an app with process Id 1234 <br>
 docker images => list images <br>
 docker rmi webapiapp:latest => delete image webapiapp:latest <br>
 
+minikube kubectl get deployments => list the deployments <br>
+minikube kubectl delete deployment lambdafunctionapp-app-deployment => delete a deployment "lambdafunctionapp-app-deployment" <br>
+
+minikube kubectl get services => list the services <br>
+minikube kubectl delete service lambdafunctionapp-app-service => delete a service "lambdafunctionapp-app-service"
+
 
 
 
